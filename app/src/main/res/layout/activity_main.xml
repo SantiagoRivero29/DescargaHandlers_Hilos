@@ -10,12 +10,12 @@
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
         android:text="Descarga Hilos y Handlers"
         android:textAlignment="center"
         android:textColor="#FCF5FD"
-        android:textSize="48sp"
+        android:textSize="30sp"
         android:textStyle="bold" />
 
     <LinearLayout
@@ -25,28 +25,28 @@
 
         <LinearLayout
             android:layout_width="250dp"
-            android:layout_height="400dp"
+            android:layout_height="350dp"
             android:background="@drawable/img"
             android:orientation="vertical">
 
             <ImageView
                 android:id="@+id/imgSombrero"
                 android:layout_width="match_parent"
-                android:layout_height="133dp"
+                android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:contentDescription="Personaje" />
 
             <ImageView
                 android:id="@+id/imgPolera"
                 android:layout_width="match_parent"
-                android:layout_height="133dp"
+                android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:contentDescription="Personaje" />
 
             <ImageView
                 android:id="@+id/imgPantalon"
                 android:layout_width="match_parent"
-                android:layout_height="133dp"
+                android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:contentDescription="Personaje" />
         </LinearLayout>
