@@ -55,25 +55,32 @@
             android:layout_width="match_parent"
             android:layout_height="400dp"
             android:background="@color/semiTransparentBlack"
-            android:orientation="vertical">
+            android:orientation="horizontal">
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btnCamiseta"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Descargar Camiseta" />
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="Polera"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+               android:background="@drawable/polera"/>
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btnSombrero"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Descargar Sombrero" />
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="Sombero"
+                android:textColor="@color/white"
+                android:background="@drawable/sombrero"/>
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btnPantalon"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Descargar Pantalón" />
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="Pantalon"
+                android:textColor="@color/white"
+                android:background="@drawable/pantalon" />
 
             <ProgressBar
                 android:id="@+id/progressBar"
@@ -81,7 +88,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:visibility="gone" />
+                android:visibility="gone"
+              />
         </LinearLayout>
     </LinearLayout>
 
